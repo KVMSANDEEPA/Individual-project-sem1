@@ -52,8 +52,14 @@
     background-color: white;
 }
 .courses{
-    background-color: bisque;
+    background-color: rgb(226, 221, 216);
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
+}
+.footer-sec{
+    background-color: #000e47;
+}
+#footer{
+    color: azure;
 }
