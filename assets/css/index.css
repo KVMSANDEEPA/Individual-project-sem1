@@ -11,3 +11,49 @@
     color: white;
     font-family: "tahoma";
 }
+
+.courses .course-item {
+    border-radius: 10px;
+    border: 1px solid #eef0ef;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.about , .courses{
+    padding: 60px 0;
+    overflow: hidden;
+}
+.section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #37423b;
+    padding-bottom: 20px;
+}
+.section-title h2{
+    padding-bottom: 10px;
+}
+.courses .course-content {
+    padding: 15px;
+}
+.courses .course-content h4 {
+    font-size: 14px;
+    background: #7851A9;
+    padding: 7px 14px;
+    color: #fff;
+    margin: 0;
+}
+.courses .course-content h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+.course-item{
+    background-color: white;
+}
+.courses{
+    background-color: bisque;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
