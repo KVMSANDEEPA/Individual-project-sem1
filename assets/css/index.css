@@ -7,6 +7,9 @@
     letter-spacing: 1px;
     font-family: "Poppins", sans-serif;
 }
+.navbar{
+    background-color: #000e47;
+}
 .display-3{
     color: white;
     font-family: "tahoma";
