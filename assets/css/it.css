@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+/* .headingbg{
+    background-image:linear-gradient(#000000bc, #000000bd), url(images/s-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+.heading{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px ;
+   
+}
+.heading h1{
+    font-family:"Tahoma";
+    font-size: 25px;
+    color: #505050;
+}
+/* .heading h1::before {
+    content: '';
+    position: absolute;
+    width: 700px;
+    height: 4px;
+    background-color: #ffc600;
+    bottom: 550px;
+    left: 50px;
+} */
+.page-content{
+    padding-left: 100px;
+    padding-right: 400px;
+}
+.container , .exemption , .imp-cont {
+    padding-top: 30px;
+    color: #000000;
+}
+
+.sub-title , .emp-title , .subject-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #3a3a3a;
+    padding-bottom: 25px;
+}
+
+
+
+.imp-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+}
+.content1{
+    line-height: 50px;
+}
+.descript{
+    line-height: normal;
+    padding-bottom: 30px;
+}
+.emp-details , .imp-cont  {
+    padding-bottom : 20px;
+    line-height: 20px;
+}
+.info{
+    color: #171717;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 250px;
+}
+.table{
+    /* padding-left:250px; */
+    display: flex;
+    flex-direction: column;
+}
+.table p{
+    padding-bottom: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5px;
+    color: #333333;
+    /* background-color: #fff; */
+}
+.module , th, td {
+    border: 2px solid #dfdfdf;
+    padding: 10px 12px;
+    width: 650px;
+    color: #2a2a2a;
+  }
+.module{
+    padding-bottom: 20px;
+}
+.sem{
+    padding-top: 30px;
+}
+.sem12 .sem34{
+    display: flex;
+}
+.module tbody tr:hover{
+    background-color: rgba(58, 59, 59, 0.812);
+}

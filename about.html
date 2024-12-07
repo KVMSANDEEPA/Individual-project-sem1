@@ -13,7 +13,86 @@
          .d-lg-flex {
         justify-content: space-between;
     }
-      
+    .about-sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: azure;
+    
+}
+.about{
+    /* margin-top: 5%; */
+    /* height: 200px; */
+    flex-basis: 50%;
+    /* overflow: auto; */
+    border-radius: 20px;
+    /* margin-bottom: 5%; */
+    box-sizing: border-box;
+    padding: 20px 12px;
+    /* height: 800px;  */
+}
+.about h1{
+    font-size: 48px;
+    color:#0c071f ;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.about h3{
+    color: #071851;
+    position: relative;
+    padding-bottom: 12px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.about h3::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    background-color: #ffc600;
+    bottom: 0;
+    left: 0;
+}
+.about-cont{
+    font-size: 19px;
+    /* font-weight: 400; */
+    line-height: 30px;
+    color: #2e2626;
+    /* text-shadow: 3px 3px 2px rgb(30, 30, 30); */
+    margin: 0px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.btn2{
+    margin-top: 20px;
+    display:inline-block;
+    border: 1px solid #ffc600;
+    padding: 0 35px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+    border-radius: 5px;
+    color: #07294d;
+    background-color: #ffc600;
+}
+.lmore{
+    text-decoration: none;
+}
+.col-md-7 , .col-md-5{
+  display: flex;
+  flex-direction: column;
+}
+.col-md-7{
+  padding-left: 300px;
+}
+.row featurette{
+  background-color: bisque;
+}
+.footer{
+  background-color: darkkhaki;
+}
     </style>
 </head>
   <body>
@@ -65,16 +144,36 @@
         </nav>
       </header>
       <main>
-        <section class="about">
-            <hr class="featurette-divider">
 
+            <section class="about-sec">
+              <div class="about">
+                <h3><a name="about">About Us</a></h3><br><br>
+                <h1>About SLIATE</h1>
+                <br><br>
+                <p class="about-cont">The Sri Lanka Institute of Advanced Technological Education (also known as SLIATE) is a statutory body
+                  in Sri Lanka coming under the purview of the Higher Education Ministry and offering Higher National Diploma courses.
+                  At present, it manages and supervises eighteen provincial Advanced Technological Institutes throughout the island.
+                  The institute is traditionally known for its education in the accountancy and engineering.
+                  <br><br>
+                  As per the recommendations of the Committee appointed by Prof. Wiswa Waranapala, 
+                  Deputy Minister of Higher Education in 1994, the Sri Lanka Institute of Advanced Technical Education (SLIATE)
+                  was formed in 1995, under the Sri Lanka Institute of Advanced Technical Education Act No. 29 of 1995.
+                   In 2001, the name of the institution was amended as Sri Lanka Institute of Advanced Technological Education (SLIATE).
+                  </p>
+                  <br>
+                  <br>
+                  <a href="http://www.sliate.ac.lk/about/overview" class="lmore" target="_blank"><p class="btn2">Learn More</p></a>
+              </div>
+            </section>
+            <section class="about">
     <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+      <div class="col-md-5">
+        <h2 class="featurette-heading fw-normal lh-1">Our Vision</h2>
+        <p class="lead">To Become the Centre of Excellence in Technological Education in Sri Lanka</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg> -->
+        <img src="assets/img/s-04.jpg" class="img" width="700" height="500">
       </div>
     </div>
 
@@ -82,29 +181,35 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        <h2 class="featurette-heading fw-normal lh-1">Our mission</h2>
+        <p class="lead">Creating Excellent Higher National and National Diplomates with Modern Technology for Sustainable Development</p>
       </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
+      <div class="col-md-5 order-md0">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg> -->
+        <img src="assets/img/4.jpg" class="img" width="700" height="500">
 
-    <hr class="featurette-divider"> 
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
       </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-        </section>
+    </div>   
+</section>
       </main>
+      <section class="footer">
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 Company, Inc</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+          </ul>
+        </footer>
+      </div></section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/jquery.min.js"></script>
