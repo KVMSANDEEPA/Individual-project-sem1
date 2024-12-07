@@ -95,6 +95,4 @@
 .sem12 .sem34{
     display: flex;
 }
-.module tbody tr:hover{
-    background-color: rgba(58, 59, 59, 0.812);
-}
+
