@@ -80,7 +80,7 @@
     color: #333333;
     /* background-color: #fff; */
 }
-.module , th, td {
+ th, td {
     border: 2px solid #dfdfdf;
     padding: 10px 12px;
     width: 650px;
