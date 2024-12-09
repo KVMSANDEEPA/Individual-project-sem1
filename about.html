@@ -87,11 +87,22 @@
 .col-md-7{
   padding-left: 300px;
 }
-.row featurette{
+/* .row featurette{
   background-color: bisque;
-}
+} */
 .footer{
   background-color: darkkhaki;
+}
+.bg{
+  background-image: url(assets/img/hndit.jpg);
+  background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 80px 82px;
+}
+.bg h3{
+  color: floralwhite;
+  text-align: center;
 }
     </style>
 </head>
@@ -144,6 +155,9 @@
         </nav>
       </header>
       <main>
+        <section class="bg">
+          <h3>About Us</h3>
+        </section>
 
             <section class="about-sec">
               <div class="about">
@@ -166,7 +180,7 @@
               </div>
             </section>
             <section class="about">
-    <div class="row featurette">
+    <div class="row featurette" id="vision">
       <div class="col-md-5">
         <h2 class="featurette-heading fw-normal lh-1"><img src="assets/img/binoculars.png" width="50px">&nbsp;Our Vision</h2>
         <p class="lead">To Become the Centre of Excellence in Technological Education in Sri Lanka</p>
@@ -179,9 +193,9 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette" s>
+    <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1"><img src="assets/img/mission.png" width="50px"> mission</h2>
+        <h2 class="featurette-heading fw-normal lh-1"><img src="assets/img/mission.png" width="50px">Our mission</h2>
         <p class="lead">Creating Excellent Higher National and National Diplomates with Modern Technology for Sustainable Development</p>
       </div>
       <div class="col-md-5 order-md0">
