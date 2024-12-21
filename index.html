@@ -33,6 +33,12 @@
   justify-content: space-evenly;
   display: flex;
 }
+.fw-link ul li{
+  text-decoration: none;
+}
+.about-text{
+  font-size: 21px;
+}
     </style>
   </head>
   <body>
@@ -47,14 +53,14 @@
           <a class="navbar-brand col-lg-0 me-0" id="logo" href="index.html"><img src="assets/img/LOGOATI.png" width="80px"></a>
           <ul class="navbar-nav col-lg-6 justify-content-lg-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">&nbsp;&nbsp;About</a>
+              <a class="nav-link" href="about.html">&nbsp;&nbsp;<i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
             </li>
            
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="courses.html" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&nbsp;&nbsp;Courses</a>
+              <a class="nav-link dropdown-toggle" href="courses.html" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&nbsp;&nbsp; <i class="fas fa-book-open fa-lg fa-fw"></i> Courses</a>
               <div class="dropdown-menu" aria-labelledby="dropdownId">
                    <a class="dropdown-item p-3" href="courses.html">All Courses</a>
                     <a class="dropdown-item p-3" href="IT.html">Information Technology</a>
@@ -69,7 +75,7 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">&nbsp;&nbsp;Contact </a>
+              <a class="nav-link" href="contact.html">&nbsp;&nbsp; <i class="fa fa-address-book" aria-hidden="true"></i> Contact </a>
             </li>
            
       </ul>
@@ -209,11 +215,11 @@
                   <h5 class="text-white">Quick Links</h5>
               </div>
               <div class="fw-link">
-                  <ul>
-                      <li><a href="index.html" class="text-white">Home </a></li>
-                      <li><a href="about.html" class="text-white">About Us</a></li>
-                      <li><a href="courses.html" class="text-white">Courses</a></li>
-                      <li><a href="contact.html" class="text-white">Contact</a></li>
+                  <ul type="none">
+                      <li id="link"><a href="index.html" class="text-white"><i class="fa fa-home fa-lg fa-fw" aria-hidden="true"></i>&nbsp;Home </a></li>
+                      <li id="link"><a href="about.html" class="text-white"><i class="fas fa-info-circle  fa-lg fa-fw  "></i> &nbsp;About Us</a></li>
+                      <li id="link"><a href="courses.html" class="text-white"><i class="fas fa-book-open fa-lg fa-fw"></i> &nbsp;Courses</a></li>
+                      <li id="link"><a href="contact.html" class="text-white"><i class="fa fa-address-book fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Contact</a></li>
                   </ul>
               </div>
           </div>
