@@ -42,7 +42,7 @@
     </style>
   </head>
   <body>
-  <?php include_once ("includes/header.php") ?>
+  <?php include_once ("assets/includes/header.php") ?>
   <main>
    <section class="main" >
     <div class="container-fluid m-0" style="background-image: linear-gradient(#1b1b1b8d, #1b1b1b8d), url(assets/img/bg-2.jpg); background-size:cover; background-repeat: no-repeat;">
