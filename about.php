@@ -111,7 +111,7 @@
     </style>
 </head>
   <body>
-  <?php include_once ("includes/header.php") ?>
+  <?php include_once ("assets/includes/header.php") ?>
       <main>
         <section class="bg">
           <h3>About Us</h3>
