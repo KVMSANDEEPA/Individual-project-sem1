@@ -95,4 +95,9 @@
 .sem12 .sem34{
     display: flex;
 }
-
+#copyright{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+    color: white;
+  }

@@ -72,3 +72,9 @@
     margin-top: 7rem;
   }
 }
+#copyright{
+  text-align: center;
+  margin-top: 5px;
+    font-size: 15px;
+  color: white;
+}
